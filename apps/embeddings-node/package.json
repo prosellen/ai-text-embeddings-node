@@ -1,0 +1,19 @@
+{
+  "name": "embeddings-node",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^3.3.3",
+    "dotenv": "^16.4.7"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ai-text-embeddings-node",
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prosellen/ai-text-embeddings-node.git"
+  },
+  "author": "Peter Rosellen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prosellen/ai-text-embeddings-node/issues"
+  },
+  "homepage": "https://github.com/prosellen/ai-text-embeddings-node#readme"
+}
